@@ -35,7 +35,11 @@ namespace _1___classe_prodotto
         {
             static void Main(string[] args)
             {
-            }
+            Prodotto prodotto1 = new Prodotto("Patata", 20);
+            Prodotto prodotto2 = new Prodotto("Pizza", 50);
+            Console.WriteLine("Prodotto 1 - Nome: {0}, Prezzo: {1}", prodotto1.ottieninome(), prodotto1.ottieniprezzo());
+            Console.WriteLine("Prodotto 2 - Nome: {0}, Prezzo: {1}", prodotto2.ottieninome(), prodotto2.ottieniprezzo());
+        }
         }
     }
 
